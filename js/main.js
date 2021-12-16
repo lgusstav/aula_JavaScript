@@ -1,10 +1,10 @@
-var nome = "Luiz Gustavo";
-var n = 5;
-var n2 = 3;
-var fs = "Flamengo é o melhor time do mundo"
+var fts = [{name:"maça", cor:"vermelha"}, {name:"pera", cor:"verde"}]
+console.log(fts);
+alert(fts[1].name);
 
-//alert(nome + " tem " + id + " anos");
 
-console.log(nome);
-console.log(n * n2);
-console.log(fs.toLowerCase() );
+/*
+var ft = {name:"maça", cor:"vermelha"};
+console.log(ft.cor);
+alert(ft.name);
+*/
