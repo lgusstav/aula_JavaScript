@@ -5,7 +5,17 @@
     <title>minha página</title>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
-    <h1> minha primeira página </h1>
+<body onload="LD()">
+  <button type ="button" onclick="clicou()">Clique aqui</button>
+  <p id="obg" onclick="redirecionar()"></p>
+  <p  onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+  <p  onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+  <p  onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+  <select onchange="fc (this)">
+      <option value="1"> 1 </option>
+      <option value="2"> 2 </option>
+      <option value="3"> 3 </option>
+  </select>
+
 </body>
 </html>
